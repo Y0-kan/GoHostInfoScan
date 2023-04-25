@@ -1,7 +1,6 @@
 # GoHostInfoScan
 红队小工具 | 利用DCERPC协议，无需认证获取Windows机器主机信息和多网卡信息
 ## 简介
-分析和部分代码参考了倾旋师傅的[文章](https://payloads.online/archivers/2020-07-16/1/)
 [HostInfoScan](https://github.com/Y0-kan/HostInfoScan)的Go版本，便于交叉编译与移植。
 
 **本工具主要用于探测内网中Windows机器的操作系统信息、域名、主机名以及多网信息，可以辅助红队快速定位多网卡主机，以及判断机器是否在域内。**
